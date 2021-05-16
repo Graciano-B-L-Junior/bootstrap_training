@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <title>Projeto bootstrap</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <script src="js/all.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">&ltGraciano.Junior&gt</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-row-reverse justify-content" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="section">
+    <div class="overlay">
+      <div class="container">
+        <div class="texto-bg">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Seja bem-vindo(a)</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor sodales velit, ultrices lacinia
+                risus venenatis nec. Morbi suscipit tortor mi, et tempor lacus varius a. Suspendisse potenti. Nullam in
+                fringilla lorem. Aenean suscipit feugiat ligula, laoreet cursus dolor condimentum id.</p>
+            </div>
+            <div class="col-md-6">
+              <h2>Escreva-se para nossa lista</h2>
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Insira seu email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Email...">
+                </div>
+                <button type="submit" class="btn btn-primary" style="margin-top: 15px;">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="chamada">
+    <div class="container">
+      <h2 class="text-center">
+        <i class="fas fa-chevron-circle-down"></i>
+      </h2>
+    </div>
+  </section>
+
+  <section class="sobre">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="custom-title">
+            <div></div>
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor sodales velit, ultrices lacinia
+              risus venenatis nec. Morbi suscipit tortor mi, et tempor lacus varius a. Suspendisse potenti. Nullam in
+              fringilla lorem. Aenean suscipit feugiat ligula, laoreet cursus dolor condimentum id.</p>
+          </div>
+          <div class="text-center">
+            <button type="button" class="btn btn-primary">Saiba Mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="diferenciais">
+    <div class="container">
+      <div class="custom-title">
+        <div></div>
+        <h2>Nossos diferenciais</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="text-center"><i class="fas fa-user"></i></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor sodales velit, ultrices lacinia
+            risus venenatis nec. Morbi suscipit tortor mi, et tempor lacus varius a.</p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="text-center"><i class="fas fa-heart"></i></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor sodales velit, ultrices lacinia
+            risus venenatis nec. Morbi suscipit tortor mi, et tempor lacus varius a.</p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="text-center"><i class="fab fa-safari"></i></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor sodales velit, ultrices lacinia
+            risus venenatis nec. Morbi suscipit tortor mi, et tempor lacus varius a.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="convite">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2><i class="far fa-bell"></i> Confira nossa lista</h2>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="row">
+              <div class="col-8">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira seu email">
+              </div>
+              <div class="col-4">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/graciano-barbosa-lima-junior-ba3746185/" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Graciano-B-L-Junior" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Feito por Graciano Junior para praticar bootstrap
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

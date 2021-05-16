@@ -1,0 +1,61 @@
+.nav-item{
+    margin: 0 15px;
+  }
+
+.section{
+  min-height: 500px;
+  background-image: url('./src/img-gray.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section .overlay{
+  position: relative;
+  height: 500px;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 2;
+  width: 100%;
+}
+
+.section .container{
+  position: relative;
+  z-index: 3;
+}
+
+.texto-bg{
+  color: white;
+  margin-top: 140px;
+  display: inline-block;
+}
+
+section.chamada{
+  padding: 8px 0;
+  background: #3fa3c5;
+  color: white;
+}
+
+section.sobre{
+  padding: 15px 0;
+  background: rgb(238, 238, 238);
+}
+
+.diferenciais{
+  padding: 30px 0;
+  color: #646464;
+}
+
+.diferenciais h2{
+  padding: 10px 0;
+  border-bottom: 1px dotted black;
+}
+
+section.convite{
+  padding: 80px 0;
+  background: #3fa3c5;
+}
+
+section.convite h2{
+  font-size: 28px;
+  color: white;
+}
